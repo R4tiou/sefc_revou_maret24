@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Travel | Ratio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+
+    <!--feather icon-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header id="header">
+      <nav class="navbar">
+        <div class="brand">
+          <img
+            src="assets/logo.png"
+            alt="logo"
+          />
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i width="36" data-feather="menu"></i>
+        </div>
+        <ul class="navigations">
+          <li>
+            <a href="#hero-content" class="__transition"
+              ><i width="16" data-feather="home"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#package-content" class="__transition"
+              ><i width="16" data-feather="box"></i>Our Package</a
+            >
+          </li>
+          <li>
+            <a href="#closing-argument" class="__transition"
+              ><i width="16" data-feather="phone-forwarded"></i>Call Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="hero-content">
+      <div class="wrapper">
+        <article class="headline">
+          <h1>Your Trustes Travel Agent</h1>
+          <p>Your Happiness is our happiness</p>
+        </article>
+        <article class="slider">
+          <div class="slider-wrapper">
+            <div class="slider-images-carousel">
+              <div class="slides">
+                <img
+                  src="assets/1.jpg"
+                  class="slide"
+                  alt="groceries"
+                />
+                <img
+                  src="assets/2.jpg"
+                  class="slide"
+                  alt="groceries"
+                />
+                <img
+                  src="assets/3.jpg"
+                  class="slide"
+                  alt="groceries"
+                />
+              </div>
+              <div class="controls">
+                <div class="control prev-slide">
+                  <i width="42" data-feather="chevron-left"></i>
+                </div>
+                <div class="control next-slide">
+                  <i width="42" data-feather="chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <div class="review-message">
+                <p>"Liburan Jadi Menyenangkan bersama travel agenku"</p>
+              </div>
+              <div class="reviewer">
+                <div class="img-profile">
+                  <img
+                    src="https://source.unsplash.com/random/100x100/?woman"
+                    alt="woman"
+                  />
+                </div>
+                <div class="profile">
+                  <h3>Florence Hughes</h3>
+                  <p>Ibu rumah tangga, 28</p>
+                </div>
+              </div>
+            </div>
+            <div class="offer-information">
+              <h3>
+                Beberapa keuntungan yang Anda akan dapatkan dengan menggunakan
+                jasa kami:
+              </h3>
+              <div class="offer-list">
+                <div class="offer">
+                  <div class="icon-wrapper">
+                    <i width="36" data-feather="shopping-cart"></i>
+                  </div>
+                  <p>Kemudahan dalam travelling</p>
+                </div>
+                <div class="offer">
+                  <div class="icon-wrapper">
+                    <i width="36" data-feather="clock"></i>
+                  </div>
+                  <p>Waktu dan Efisiensi</p>
+                </div>
+                <div class="offer">
+                  <div class="icon-wrapper">
+                    <i width="36" data-feather="list"></i>
+                  </div>
+                  <p>Banyak Tempat Tujuan</p>
+                </div>
+                <div class="offer">
+                  <div class="icon-wrapper">
+                    <i width="36" data-feather="truck"></i>
+                  </div>
+                  <p>Layanan nyaman dan menyenangkan</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="contact">
+          <div class="contact-wrapper">
+            <header>
+              <h3>Contact Us</h3>
+              <p>
+                Sales akan menghubungi anda 1x24 jam setelah data kami terima
+              </p>
+            </header>
+            <form action="" id="contact-form">
+              <label for="name" class="form-control">
+                <span>Your Name</span>
+                <input
+                  type="text"
+                  placeholder="Firs and last name"
+                  id="name"
+                  name="name"
+                  required
+                />
+                <small></small>
+              </label>
+              <label for="email" class="form-control">
+                <span>Emal Address</span>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="example@gmail.com"
+                  name="email"
+                  required
+                />
+                <small></small>
+              </label>
+              <label for="interest">
+                <span>What are you interested in?</span>
+                <select id="interest" name="interest">
+                  <option value="saab" selected>Food</option>
+                  <option value="opel">Drink</option>
+                  <option value="audi">Groceries</option>
+                </select>
+              </label>
+              <button type="submit">
+                Send <i data-feather="send" width="16"></i>
+              </button>
+            </form>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <article class="our-package">Our package</article>
+    <main id="package-content">
+      <div class="package-content-wrapper">
+        <article class="package-card">
+          <div class="icon">
+            <div class="icon-wrapper">
+              <i width="42" data-feather="shopping-bag"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>BALI</h3>
+            <p>Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands</p>
+          </div>
+        </article>
+        <article class="package-card">
+          <div class="icon">
+            <div class="icon-wrapper">
+              <i width="42" data-feather="shopping-bag"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>JEPANG</h3>
+            <p>
+              Jepang terdiri dari 6.852 pulau dan menjadikannya sebagai negara kepulauan
+            </p>
+          </div>
+        </article>
+        <article class="package-card">
+          <div class="icon">
+            <div class="icon-wrapper">
+              <i width="42" data-feather="shopping-bag"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Singapore</h3>
+            <p>
+              Singapore, officially the Republic of Singapore, is an island country and city-state in maritime Southeast Asia
+            </p>
+          </div>
+        </article>
+        <article class="package-card">
+          <div class="icon">
+            <div class="icon-wrapper">
+              <i width="42" data-feather="tool"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Bandung</h3>
+            <p>Kota Bandung merupakan kota terpadat di Jawa Barat, di mana penduduk aslinya sekaligus mayoritas penduduk kota Bandung adalah suku Sunda</p>
+          </div>
+        </article>
+        <article class="package-card">
+          <div class="icon">
+            <div class="icon-wrapper">
+              <i width="42" data-feather="tool"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Surabaya</h3>
+            <p>Surabaya merupakan kota terbesar kedua di Indonesia setelah Kota Jakarta</p>
+          </div>
+        </article>
+        <article class="package-card">
+          <div class="icon">
+            <div class="icon-wrapper">
+              <i width="42" data-feather="tool"></i>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Lainnya</h3>
+            <p>
+              Bingung mau kemana? gabung dengan travelling kami
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+    <article class="closing-argument" id="closing-argument">
+      <div class="closing-argument-wrapper">
+        <h1>Anda Travelling, Kami Happiness</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+          ipsa, laudantium minus perferendis porro quam suscipit tenetur.
+          Deserunt, dolorum ipsum?
+        </p>
+        <button>Contact Us</button>
+      </div>
+    </article>
+
+    <footer id="footer">
+      <div class="footer-image">
+        <img src="./assets/logo.png" alt="logo" />
+      </div>
+
+      <div class="footer-text">
+        <p>Terms of Service | Privacy Policy</p>
+        <p>2019 Moqups</p>
+      </div>
+    </footer>
+
+    <div class="float-navbar">
+      <ul class="navigations">
+        <li>
+          <a href="#hero-content" class="__transition"
+            ><i width="16" data-feather="home"></i>Home</a
+          >
+        </li>
+        <li>
+          <a href="#package-content" class="__transition"
+            ><i width="16" data-feather="box"></i>Our Package</a
+          >
+        </li>
+        <li>
+          <a href="#closing-argument" class="__transition"
+            ><i width="16" data-feather="phone-forwarded"></i>Call Us</a
+          >
+        </li>
+      </ul>
+
+      <div class="close-btn"><i data-feather="x" width="32"></i></div>
+    </div>
+
+    <div class="toaster hide">
+      Data sent successsfully <i data-feather="check" width="16"></i>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
